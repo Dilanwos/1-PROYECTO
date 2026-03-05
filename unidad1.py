@@ -5,7 +5,7 @@
 # for letra in (nombre):
 #     print(f"letra {letra}")
 
-lista = ["Yamaha", "Honda", "Suzuki", "Kawasaki", "Ducati"]
+lista = ["Yamaha", "AKT", "Suzuki", "Kawasaki", "Ducati"]
 for marca in lista:
     print(f"Marca: {marca}")
 
@@ -16,7 +16,7 @@ lista.extend(["BMW", "Harley-Davidson"])
 
 print("Lista actualizada:", lista)
 
-lista = ["Yamaha", "Honda", "Suzuki", "Kawasaki", "Ducati"]
+lista = ["Yamaha", "AKT", "Suzuki", "Kawasaki", "Ducati"]
 i = 0
 while i < 1:
     print(f"La Marca {lista[i]} es mi favorita")
