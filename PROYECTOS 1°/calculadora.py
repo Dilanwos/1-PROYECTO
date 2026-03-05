@@ -26,4 +26,4 @@ while True:
             print("Error: No se puede dividir por cero.")
 
     else: 
-        print("Operacion no valida. Por favor, elige una operacion correcta.")
+        print("Operacion no valida. Por favor, elija una operacion correcta.")
