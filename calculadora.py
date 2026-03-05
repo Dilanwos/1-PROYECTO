@@ -23,7 +23,7 @@ while True:
             resultado = numero1 / numero2
             print("El resultado es:", resultado) 
         else: 
-            print("Error: f")
+            print("Error: No se puede dividir por cero.")
 
     else: 
         print("Operacion no valida. Por favor, elige una operacion correcta.")
