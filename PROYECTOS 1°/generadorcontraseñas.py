@@ -76,7 +76,8 @@ for _ in range(length):
     # 9 Agregar el caracter elegido a la contraseña generada
     password += char # aqui se agrega el caracter a la contraseña final
 # 10 Mostrar la contraseña generada al usuario
-print("Tu contraseña generada es asi: ", password)
+print("Tu contraseña generada es: ", password)
+
 
 
 
