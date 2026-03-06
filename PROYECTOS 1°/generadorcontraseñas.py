@@ -23,8 +23,8 @@ else:
 length = int(input("Elige la longitud de la contraseña (8, 12, 16): "))
 if length in [8, 12, 16]:
     pass
-else:
-    print("Longitud no valida. Por favor, elige una longitud correcta.")
+while length not in [8,12,16]:
+    length = int(input("Elige 8, 12 o 16: "))
 caracteres = "" 
 while True:
     resp_minus = input("¿Deseas incluir letras minusculas? (s/n): ").lower()
@@ -64,6 +64,7 @@ while True:
         print("Respuesta no valida. Por favor, elige una respuesta correcta s/n.")
 if caracteres == "":
     print("No se han seleccionado caracteres. Por favor, elige al menos un tipo de caracter.")
+    exit()
 
 # 6 Crear una variable vacía para almacenar la contraseña generada
 password = "" # aqui guardaremos la contraseña final
