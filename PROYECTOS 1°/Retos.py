@@ -35,7 +35,7 @@
 def agregar_al_inventario(nuevo_objeto):
     inventario = ["Espada", "Escudo", "Mapa"]
     inventario.append(nuevo_objeto)
-    inventario.append("Poción de vida")
+    inventario.append("Poción de veneno")
     
     # Bug: Sobrescribimos la lista con una cadena de texto
   
