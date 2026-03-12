@@ -32,15 +32,16 @@
 # contador = contar_vocales("murcielago")
 # print(f"Total de vocales: {contador}")
 
-def agregar_al_inventario(nuevo_objeto):
-    inventario = ["Espada", "Escudo", "Mapa"]
-    inventario.append(nuevo_objeto)
-    inventario.append("Poción de veneno")
+# def agregar_al_inventario(inventario, nuevo_objeto):
+#     # inventario = ["Espada", "Escudo", "Mapa"]
+#     inventario.append(nuevo_objeto)
+        
     
-    # Bug: Sobrescribimos la lista con una cadena de texto
-  
-    
-    print(f"Tienes {len(inventario)} objetos en tu mochila.")
+#     # Bug: Sobrescribimos la lista con una cadena de texto
+#     print(f"Has agregado {nuevo_objeto} a tu inventario.")
+#     print(f"Tienes {len(inventario)} objetos en tu mochila.")
 
-# Zona de pruebas
-agregar_al_inventario("Poción de vida")
+# # Zona de pruebas
+# inventario = ["Espada", "Escudo", "Mapa"]
+# agregar_al_inventario(inventario, "Poción de vida")
+# agregar_al_inventario(inventario, "Poción de mana")
