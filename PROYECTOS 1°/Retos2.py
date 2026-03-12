@@ -13,7 +13,7 @@
 # cajero_automatico(mi_dinero, 20)
 
 def es_palindromo(palabra):
-    # Invertimos la palabra para compararla
+    # Invertimos la palabra usando slicing
     palabra_invertida = palabra[::-1]
     
     # Bug: Usamos un solo = (asignación) en lugar de == (comparación)
