@@ -1,14 +1,13 @@
 print("=== GENERADOR DE CONTRASEÑAS ===") 
-# 1 Importamos la libreria que tiene letras, numeros y simbolos
+
 import string
-# 3 importamos la libreria para generar valores aleatorios seguros
 import secrets
-# 2 Creamos variables para cada tipo de caracter
+
 minusculas = string.ascii_lowercase
 mayusculas = string.ascii_uppercase
 numeros = string.digits
 simbolos = string.punctuation
-# 4 Pedimos al usuario que elija la fuerza de la contraseña
+
 strength = input("Elige la fuerza de la contraseña (baja, media, alta): ").lower() 
 if strength == "baja":
         caracteres = minusculas
@@ -19,7 +18,7 @@ elif strength == "alta":
 else:
         print("Fuerza no valida. Por favor, elige una fuerza correcta.")
     
-# 5 Pedimos al usuario que elija la longitud de la contraseña
+
 length = int(input("Elige la longitud de la contraseña (8, 12, 16): "))
 if length in [8, 12, 16]:
     pass
@@ -69,13 +68,13 @@ if caracteres == "":
 # 6 Crear una variable vacía para almacenar la contraseña generada
 password = "" # aqui guardaremos la contraseña final
 
-# 7 Repetir tantas veces como la longitud elegida por el usuario
+
 for _ in range(length):
-    # 8 Elegir un caracter aleatorio como la longitud elegida por el usuario
-    char = secrets.choice(caracteres) # aqui se elige un caracter aleatorio de la variable caracteres
-    # 9 Agregar el caracter elegido a la contraseña generada
+
+    char = secrets.choice(caracteres) 
+
     password += char # aqui se agrega el caracter a la contraseña final
-# 10 Mostrar la contraseña generada al usuario
+
 print("Tu contraseña generada es: ", password)
 
 
