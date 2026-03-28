@@ -1,7 +1,7 @@
 print("=== CALCULADORA BASICA ===")
 
 while True:
-    numero1 = float(input("Ingresa el segundo numero: "))
+    numero1 = float(input("Ingresa el primer numero: "))
     numero2 = float(input("Ingresa el segundo numero: "))
 
     operacion = input("Elige la operacion (+, -, *, /): ")
